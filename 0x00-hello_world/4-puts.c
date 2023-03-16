@@ -2,7 +2,6 @@
 /**
  * main: Entry point
  * no paramters
- *
  * Description: Prints \" Programming is like building a mutlilingual puzzle
  * Returns 0
  */ 
