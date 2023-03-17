@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
  * main - Entry point
  * no parameters
@@ -8,10 +9,10 @@
  */
 int main(void)
 {
- 	char c = 'a';
+	char c = 'a';
 	char a = 'A';
 
-	for(c; c <= 'z'; c++)
+	for (c; c <= 'z'; c++)
 	{
 		putchar(c);
 		putchar(a);
