@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Prints 
- * no parameter
+ * main - entry point
+ * no parameters
  *
+ * Description: bla bla
  * Return: 0
  */
 int main(void)
