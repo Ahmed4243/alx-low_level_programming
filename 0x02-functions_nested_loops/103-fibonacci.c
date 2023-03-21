@@ -1,26 +1,34 @@
-#include <stdio.h>
+#include "stdio.h"
 
 /**
- * main - Program to sum integers
+ * main - Sum of the even-valued terms of fib
  *
- * Description: check for all natural numbers in range of
- * 3 and 5 and sum them
+ *
  * Return: 0
  */
 
 int main(void)
 {
+	long int fib1, fib2, fib3, sum;
 
-	int i, sum;
+	fib1 = 0;
+	fib2 = 0;
+	fib3 = 1;
+	sum = 0;
 
-	for (i = 0; i < 1024; i++)
+	while (fib2 < 4000000)
 	{
-		if ((i % 3 == 0) || (i % 5 == 0))
+		fib2 = fib1 + fib3;
+		fib1 = fib3;
+		fib3 = fib2;
+
+		if (fib2 % 2 == 0)
 		{
-			sum += i;
+			sum += fib2;
 		}
+
 	}
-	printf("%d\n", sum);
+	printf("%ld\n", sum);
 
 	return (0);
 }
