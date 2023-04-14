@@ -3,7 +3,7 @@
 
 /**
  * *create_array - allocates memory
- * 2 parameter
+ * size, c: 2 parameter
  *
  * Description: creates array and allocates memory
  * Return: char
