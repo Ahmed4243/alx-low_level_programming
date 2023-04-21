@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * _memset - function
- * 3 parameters
+ * *_memset - bla bla
  *
- * description: nothing
+ *
+ * Does stuff
  * Return: s
  */
 
@@ -13,6 +13,8 @@ char *_memset(char *s, char b, unsigned int n)
 {
 	int i;
 	for (i = 0; i < n; i++)
+	{
 		*s[i] = b;
+	}
 	return (s);
 }
