@@ -4,7 +4,9 @@
 /**
  * *_memset - bla bla
  *
- *
+ * @s
+ * @b
+ * @n
  * Does stuff
  * Return: s
  */
