@@ -5,7 +5,7 @@
  * @s: the string it receives
  * @c: the character its looking for
  * Description: bla bla
- * Return: s or NULL
+ * Return: 0 or s
  */
 
 char *_strchr(char *s, char c)
@@ -16,9 +16,7 @@ char *_strchr(char *s, char c)
 	{
 		if (s[n] == c)
 			return (&s[n]);
-		else if (s[n] == '\0')
-			return (0);
 	}
 
-	return (0);
+	return (NULL);
 }
