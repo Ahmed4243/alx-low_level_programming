@@ -10,9 +10,8 @@
 
 char *_strchr(char *s, char c)
 {
-	int len = length(s);
 	int n;
-	
+
 	for (n = 0; s[n] != '\0'; n++)
 	{
 		if (s[n] == c)
