@@ -37,7 +37,7 @@ char *_strchr(char *s, char c)
 	for (n = 0; n < len; n++)
 	{
 		if (s[n] == c)
-			return (s);
+			return (&s[n]);
 	}
 
 	return (NULL);
