@@ -1,1 +1,1 @@
-Idk man
+Idk
