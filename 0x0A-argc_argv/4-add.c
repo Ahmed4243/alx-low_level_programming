@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	{
 		for (count = 1; count < argc; count++)
 			{
-				if (isdigit(argv[count]) == 0)
+				if (isdigit(*argv[count]) == 0)
 				{
 					printf("Error\n");
 					return (1);
