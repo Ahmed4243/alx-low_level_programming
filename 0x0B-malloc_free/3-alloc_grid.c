@@ -3,14 +3,14 @@
 #include <stdlib.h>
 
 /**
- * alloc_grind - Returns a pointer to a 2 dimensional array of integers.
+ * alloc_grid - Returns a pointer to a 2 dimensional array of integers.
  * @width: Width of the array
  * @height: Height of the array
  *
  * Return: Array
  */
 
-int **alloc_grind(int width, int height)
+int **alloc_grid(int width, int height)
 {
     int x, y;
     int **arr;
