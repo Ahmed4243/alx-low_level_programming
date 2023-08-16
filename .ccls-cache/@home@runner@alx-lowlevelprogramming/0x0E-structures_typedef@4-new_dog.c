@@ -25,31 +25,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 }
 
 /**
- * _strlen - Returns a string's length
- * @str: The given string
- *
- * Return: length
- */
-
-int _strlen(char *str)
-{
-	int length;
-
-	for (length = 0; str[length] != '\0'; length++)
-		{
-
-		}
-	return (length);
-}
-
-/**
-  * copy - Copy a string
-  * @cop_string: Copied string
-  * @string: String
+  * _strcpy - Copy a string
+  * @dest: Destination value
+  * @src: Source value
   *
-  * Return: copied string
+  * Return: the pointer to dest
   */
-
 char *copy(char *cop_string, char *string)
 {
 	int i;
